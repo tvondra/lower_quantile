@@ -1,0 +1,25 @@
+\set ECHO none
+SELECT lower_quantile(x, 0.01::double precision) FROM generate_series(1,1000) s(x);
+ lower_quantile 
+----------------
+             10
+(1 row)
+
+SELECT lower_quantile(x, 0.01::numeric) FROM generate_series(1,1000) s(x);
+ lower_quantile 
+----------------
+             10
+(1 row)
+
+SELECT lower_quantile(x, ARRAY[0.01, 0.05, 0.1, 0.9, 0.95, 0.99]::double precision[]) FROM generate_series(1,1000) s(x);
+     lower_quantile      
+-------------------------
+ {10,50,100,900,950,990}
+(1 row)
+
+SELECT lower_quantile(x, ARRAY[0.01, 0.05, 0.1, 0.9, 0.95, 0.99]::numeric[]) FROM generate_series(1,1000) s(x);
+     lower_quantile      
+-------------------------
+ {10,50,100,900,950,990}
+(1 row)
+

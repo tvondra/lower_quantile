@@ -1,0 +1,4 @@
+# lower_quantile aggregate
+comment = 'Provides lower_quantile aggregate function.'
+default_version = '1.0.0'
+relocatable = true
