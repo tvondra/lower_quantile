@@ -562,7 +562,7 @@ numeric_array_to_double(FunctionCallInfo fcinfo, ArrayType *array, int *arraylen
 
 	for (i = 0; i < nkeys; i++)
 		result[i] = (float8) DatumGetFloat8(DirectFunctionCall1(numeric_float8_no_overflow,
-											NumericGetDatum(keys[i])));
+																keys[i]));
 
 	*arraylen = nkeys;
 
