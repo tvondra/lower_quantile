@@ -1,0 +1,28 @@
+{
+   "name": "lower_quantile",
+   "abstract": "aggregate calculating lower quantile",
+   "version": "1.0.0",
+   "maintainer": "Tomas Vondra <tv@fuzzy.cz>",
+   "license": "postgresql",
+   "provides": {
+      "lower_quantile": {
+         "abstract": "aggregate calculating lower quantile",
+         "file": "sql/lower_quantile--1.0.0.sql",
+         "version": "1.0.0"
+      }
+   },
+   "resources": {
+      "bugtracker": {
+         "web": "http://github.com/tvondra/lower_quantile/issues"
+      },
+      "repository": {
+        "url":  "https://github.com/tvondra/lower_quantile/pgtap.git",
+        "web":  "https://github.com/tvondra/lower_quantile/pgtap",
+        "type": "git"
+      }
+   },
+   "meta-spec": {
+      "version": "1.0.0",
+      "url": "https://pgxn.org/meta/spec.txt"
+   }
+}
