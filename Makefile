@@ -9,7 +9,7 @@ MODULE_big = lower_quantile
 OBJS = lower_quantile.o
 
 EXTENSION = lower_quantile
-DATA = sql/lower_quantile--1.0.0.sql
+DATA = sql/lower_quantile--1.0.0.sql sql/lower_quantile--1.0.0--1.0.1.sql sql/lower_quantile--1.0.1--1.0.2.sql
 MODULES = lower_quantile
 
 CFLAGS=`pg_config --includedir-server`

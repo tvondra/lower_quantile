@@ -1,14 +1,14 @@
 {
    "name": "lower_quantile",
    "abstract": "aggregate calculating lower quantile",
-   "version": "1.0.0",
+   "version": "1.0.2",
    "maintainer": "Tomas Vondra <tv@fuzzy.cz>",
    "license": "postgresql",
    "provides": {
       "lower_quantile": {
          "abstract": "aggregate calculating lower quantile",
-         "file": "sql/lower_quantile--1.0.0.sql",
-         "version": "1.0.0"
+         "file": "sql/lower_quantile--1.0.1--1.0.2.sql",
+         "version": "1.0.2"
       }
    },
    "resources": {
