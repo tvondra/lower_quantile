@@ -1,0 +1,9 @@
+Revision history for PostgreSQL extension lower_quantile.
+
+1.1.0
+    - Remove unnecessary NumericGetDatum() calls.
+    - Fix PG16/17 compatibility.
+    - Add CI workflows for testing and automated releases.
+
+1.0.0
+    - Initial version.
