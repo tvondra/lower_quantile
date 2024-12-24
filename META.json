@@ -16,8 +16,8 @@
          "web": "http://github.com/tvondra/lower_quantile/issues"
       },
       "repository": {
-        "url":  "https://github.com/tvondra/lower_quantile/pgtap.git",
-        "web":  "https://github.com/tvondra/lower_quantile/pgtap",
+        "url":  "https://github.com/tvondra/lower_quantile.git",
+        "web":  "https://github.com/tvondra/lower_quantile",
         "type": "git"
       }
    },
