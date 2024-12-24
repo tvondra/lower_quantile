@@ -1,6 +1,7 @@
 # Lower Quantile aggregate
 
 [![make installcheck](https://github.com/tvondra/lower_quantile/actions/workflows/ci.yml/badge.svg)](https://github.com/tvondra/lower_quantile/actions/workflows/ci.yml)
+[![PGXN version](https://badge.fury.io/pg/lower_quantile.svg)](https://badge.fury.io/pg/lower_quantile)
 
 This implements the "lower quantile" aggregate, defined as
 

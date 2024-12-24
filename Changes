@@ -5,6 +5,7 @@ Revision history for PostgreSQL extension lower_quantile.
     - Fix PG16/17 compatibility.
     - Add CI workflows for testing and automated releases.
     - Fix git/web URLs in the PGXN META.json
+    - Add PGXN badge to README
 
 1.0.0
     - Initial version.
