@@ -1,5 +1,7 @@
 # Lower Quantile aggregate
 
+[![make installcheck](https://github.com/tvondra/lower_quantile/actions/workflows/ci.yml/badge.svg)](https://github.com/tvondra/lower_quantile/actions/workflows/ci.yml)
+
 This implements the "lower quantile" aggregate, defined as
 
    Given a multiset S of size n over R, the q-quantile item xq (in S) is
